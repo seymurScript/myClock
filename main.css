@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ClockFont';
+    src: url(./digital-7.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ClockFont',sans-serif;
+    background-image: url("https://cb.scene7.com/is/image/Crate/DillonCoffeeTblNatYukSHS19_3D_1x1/$web_pdp_main_carousel_zoom_med$/190725152744/dillon-natural-yukas-round-wood-coffee-table.jpg");
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.card{
+    border-radius: 15px;
+}
+.main{
+    font-size: 80px;
+    border: 10px solid rgb(95, 95, 95);
+
+    color: white;
+    background-color: rgb(43, 43, 43);
+    max-width: 500px;
+    margin-inline: auto;
+    margin-top: 15%;
+
+    
+    font-weight: 600;
+}
